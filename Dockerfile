@@ -1,5 +1,6 @@
 FROM  centos:7
 MAINTAINER vikashashoke@gmail.com
+RUN yum install unzip -y \
 RUN yum install -y httpd \
  zip\
 unzip
